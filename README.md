@@ -1,7 +1,7 @@
 # Sneaker-Bot-UK
 A python bot using the Selenium library to auto-buy specified sneakers on the nike.com website.
 
-#How To Use
+# How To Use
 Run `pip install -r requirements.txt`
 
 Download the Chrome webdriver from here https://chromedriver.chromium.org/downloads

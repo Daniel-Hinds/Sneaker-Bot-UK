@@ -37,6 +37,8 @@ Nike consider using bots to buy sneakers to be unfair which is why they try to b
 
 The biggest problem with this bot is concealing your chrome driver so it is not detected. 
 
+# Security
+Due to the nature of this bot it requires personal information and bank details to buy the sneakers, as such it is not recommended to host this bot anywhere other than on a system you own and control which will not be tampered with by anybody else. 
 
 # Credits 
 

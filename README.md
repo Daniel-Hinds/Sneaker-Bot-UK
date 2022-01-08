@@ -32,6 +32,12 @@ Selenium is a library which allows you to control the chrome (and firefox) web b
 
 The bot checks if a shoe is in stock by refreshing the Nike webpage (every 10 seconds) until it detects the add to cart button appear by checking for its HTML class. When it appears it clicks the button and initiates the rest of the program which executes the checkout process.
 
+# Problems/Issues
+Nike consider using bots to buy sneakers to be unfair which is why they try to block them using antibot measures such as Kasada and Akamai which are both enterprise grade anti-bot software which are not to be underestimated. They take advantage of many advanced methods of detecting bots such as browser fingerprinting.
+
+The biggest problem with this bot is concealing your chrome driver so it is not detected. 
+
+
 # Credits 
 
 Daniel Hinds

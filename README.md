@@ -20,10 +20,10 @@ Save the file and execute it
 
 
 
-#Twitter Link Sniper
+# Twitter Link Sniper
 This uses keywords of shoes to check the latest tweet from Nike, ensure it is the correct shoe then fetch the link. This is useful for completely automating the process of buying exclusive trainers from the Nike website.
 
-#Nike Autocheckout
+# Nike Autocheckout
 This part of the bot takes an input of a link, refreshes the nike website until it comes in stock and then will autocheckout with the details provided to it.
 
 # How It Works

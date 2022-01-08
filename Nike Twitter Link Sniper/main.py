@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 import time
 
 link = "https://twitter.com/nikestore"   #Twitter link
-shoe_keyword = ""
+shoe_keyword = ""   #enter keyword of shoe you are trying to get
 
 browser = webdriver.Chrome(executable_path='') #enter chrome webdriver path here
 browser.maximize_window() # For maximizing window

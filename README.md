@@ -6,7 +6,7 @@ Run `pip install -r requirements.txt`
 
 Download the Chrome webdriver from here https://chromedriver.chromium.org/downloads
 
-Open the bot.py file using IDLE
+Open the main.py file using IDLE
 
 Change the keywords to that of the trainers you want to buy (keep it to 1 or 2)
 

@@ -31,3 +31,7 @@ This part of the bot takes an input of a link, refreshes the nike website until 
 Selenium is a library which allows you to control the chrome (and firefox) web browser using python. Due to this the bot can navigate webpages by making use of classes, IDs or xpaths of the HTML. 
 
 The bot checks if a shoe is in stock by refreshing the Nike webpage (every 10 seconds) until it detects the add to cart button appear by checking for its HTML class. When it appears it clicks the button and initiates the rest of the program which executes the checkout process.
+
+# Credits 
+
+Daniel Hinds

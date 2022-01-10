@@ -6,6 +6,9 @@ For £35 a month you can buy this Nike bot to grab sneakers on release day.
 Download the latest release of the bot, run the file and enter your license key.
 Follow the instructions in the app to get the bot up and running ready to cop.
 
+# How to buy
+To buy this bot join the discord server and simply follow the instructions!
+
 # FAQ
 Why is this bot so cheap compared to others?
 This bot is still in production and isn't as refined as the other bots yet, it still has a great success rate.

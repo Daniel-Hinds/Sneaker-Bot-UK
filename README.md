@@ -8,6 +8,7 @@ Follow the instructions in the app to get the bot up and running ready to cop.
 
 # How to buy
 To buy this bot join the discord server and simply follow the instructions!
+https://discord.gg/3Z76uJTJpb
 
 # FAQ
 Why is this bot so cheap compared to others?

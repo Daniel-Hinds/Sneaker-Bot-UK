@@ -1,13 +1,13 @@
 # Sneaker-Bot-UK
 Need to cop the latest and greatest sneakers but don't want to pay a fortune to buy a bot or risk getting scammed renting one? 
-For £35 a month you can buy this Nike bot to grab sneakers on release day.
+For £15 a month you can buy this Nike bot to grab sneakers on release day.
 
 # How To Use
 Download the latest release of the bot, run the file and enter your license key.
 Follow the instructions in the app to get the bot up and running ready to cop.
 
 # How to buy
-This is currently unavailable
+Visit http://giganikebot.com to buy!
 
 # FAQ
 Why is this bot so cheap compared to others?

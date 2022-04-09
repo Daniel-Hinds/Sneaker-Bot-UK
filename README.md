@@ -1,5 +1,6 @@
 # Auto-Profit Calculator
 Determining whether or not a pair of shoes are profitable to resell can be time consuming. This auto-profit calculator scrapes websites for the latest releases and then checks their retail price against their resale price on StockX.
+
 This was written in Node.JS and makes use of the StockX API by Iyarsius https://github.com/iyarsius/stockx-scraper
 
 

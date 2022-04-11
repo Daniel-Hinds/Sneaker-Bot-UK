@@ -39,8 +39,3 @@ async function scrapeReleases(){ //Scrape for upcoming Nike Releases
     
 }
 scrapeReleases()
-///html/body/div[2]/div/div/main/div/article/section[2]/div/div[2]/div[5]/div[1]/div/article[1]/a/section/div/header/h3/div
-///html/body/div[2]/div/div/main/div/article/section[2]/div/div[2]/div[5]/div[1]/div/article[2]/a/section/div/header/h3/div
-
-///html/body/div[2]/div/div/main/div/article/section[2]/div/div[2]/div[5]/div[1]/div/article[1]/a/section/div/div/span[2]
-///html/body/div[2]/div/div/main/div/article/section[2]/div/div[2]/div[5]/div[1]/div/article[2]/a/section/div/div/span[2]

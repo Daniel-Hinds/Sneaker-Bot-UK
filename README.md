@@ -1,6 +1,6 @@
 # Nike Giga Bot
 (This is paid software that is unrelated to the auto-profit calculator!)
-Need to cop the latest and greatest sneakers but don't want to pay a fortune to buy a bot or risk getting scammed renting one? 
+Need to grab the latest and greatest sneakers but don't want to pay a fortune to buy a bot or risk getting scammed renting one? 
 For £15 a month you can buy this Nike bot to grab sneakers on release day.
 
 **Features**

@@ -29,11 +29,6 @@ This bot is still in production and isn't as refined as the other bots yet, it s
 Can Nike ban me for botting?
 Nike consider using bots to buy sneakers to be unfair, but so far nobody has been banned using this bot!
 
-# Reddit Community 
-Updates, beta-releases and soon-to-come features will all be made available in the Reddit server.
-
-https://www.reddit.com/r/Giga_Bots/
-
 # Credits 
 
 Daniel Hinds

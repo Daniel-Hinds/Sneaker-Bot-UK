@@ -12,7 +12,7 @@ Automatic twitter scraping
 **How To Use**
 
 Download the latest release of the bot, run bot by navigating to the files and using "npm start". 
-Use license key: GITHUB
+Use license key: Cheesy-Tomato
 Follow the instructions in the app to get the bot up and running.
 
 **Licensing**

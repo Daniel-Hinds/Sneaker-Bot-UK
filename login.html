@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body style="text-align: center;">
+        <script type = "text/javascript" src="./index.js"></script>
+
+        <h2 style="text-align: center;">Nike Login Details</h2>
+
+        <p style="text-align: center;" class="login-instructions">This is the most important stage to getting your bot up and running so please follow each instruction carefully!</p>
+            <br><br>
+            <p style="text-align: center;">
+                1) Login to your Nike account in a browser
+                <br>
+                2) Navigate to the settings page 
+                <br>
+                3) Fill in all information such as: phone number, address and payment details
+                <br>
+                4) Then login to the portal below using your Nike account
+                <br>
+                5) If the login is successful the wizard will automatically continue
+                <br><br><br><br>
+            </p>
+
+        <div style="display: block; margin: 0 auto;" class="login-wizard" id="login-wizard">
+            <input style="width: 250px" type="text" id="email" class ="email" placeholder="Email Address"></input>
+            <br>
+            <br>
+            <input type="password" style="width: 250px" type="text" id="password" class ="password" placeholder="Password"></input>
+            <br>
+            <br>
+            <button onclick="loginWizard()" class="login-wizard-btn" id="login_details">Login</button>
+        </div>
+        <br>
+        <div style="display:none; text-align: center;" id="loading"></div>
+        <p style="display:none; text-align: center; color: red;" id="failed">Login failed. Please check your email address and password.</p>
+    </body>
+</html>

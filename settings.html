@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <header style="text-align: center; font-weight: bolder; font-size: 35px;">Giga Nike Bot (BETA RELEASE V1)</header>
+    <br>
+    <br>
+
+    <body style="background-color: lightblue">
+        <script type = "text/javascript" src="./index.js"></script>
+
+        <button onclick="home()">Home</button>
+        <br>
+        <br>
+        <div class="login-none" id="login-none">
+            <h2>Login Details</h2>
+            <input type="text" id="email" class ="email" placeholder="Email Address"></input>
+            <input type="text" id="password" class ="password" placeholder="Password"></input>
+            <button onclick="loginDetails()" class="login-details" id="login_details">Login</button>
+        </div>
+
+        <div class="login-save" id="login-save">
+            <label style="font-weight: bold;">Email: </label>
+            <label id="email-save"></label>
+            <br>
+            <button onclick="updateLoginInformation()">Update Login Information</button>
+        </div>
+
+        <br>
+
+        <label style="font-weight: bold;">Test mode:</label>
+        <label id="test-mode">False</label>
+        <br>
+        <button onclick="toggleTest()">Toggle Test Mode</button>
+        
+        <br>
+
+        <script>
+            window.onload = page_load();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,144 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+
+    <body style="background-color: rgb(138, 138, 138)">
+        <script type = "text/javascript" src="./index.js"></script>
+        
+        <br>
+
+        <div>
+
+        <div class="create-instance" style="text-align: center; flex: 1; width:350px">
+            <h2 class="create-instance-header">Create Task</h2>
+            
+            <div style="display:flex">
+            <div style="float: left;flex: 1; width:110px">
+                <h4>Enter Keyword</h4>
+                <input onchange='updateKeyword()' type="text" id="keyword" class ="sneaker-keyword" style="width: 100px"></input>
+            </div>
+
+            <div id="shoe-size-stuff" class="shoe-size-stuff" style="float: left; display:inline; flex: 1; width:110px">
+                <h4>Shoe Size</h4>
+                <select id="shoe-size" onchange="shoeSizeFunction()">
+                    <option value="1">UK 5.5</option>
+                    <option value="2">UK 6</option>
+                    <option value="4">UK 6.5</option>
+                    <option value="5">UK 7</option>
+                    <option value="6">UK 7.5</option>
+                    <option value="7">UK 8</option>
+                    <option value="8">UK 8.5</option>
+                    <option value="9">UK 9</option>
+                    <option value="10">UK 9.5</option>
+                    <option value="11">UK 10</option>
+                    <option value="12">UK 10.5</option>
+                    <option value="13">UK 11</option>
+                    <option value="14">UK 11.5</option>
+                    <option value="15">UK 12</option>
+                    <option value="16">UK 13</option>
+                    <option value="17">UK 14</option>
+                </select>
+            </div>
+
+            <div style="float: left; display:inline; flex: 1; width:110px; text-align:center">
+                <h4>Start Time</h4>
+                <input style="width:77px; text-align: center;" onchange="startTime()" type="time" id="time">
+                <div>
+                    <label>Start Now:</label> <input onchange="startNow()" type="checkbox" id="startNow" value="1">
+                </div>
+            </div>
+
+            </div>
+
+            <div style="float:left">
+                <h4>No. Of Tasks</h4>
+                <input onchange="tasks()" type="number" id="tasks" style="width:50px">
+            </div>
+
+            <br>
+            <br>
+            <div style="padding-bottom:1px;padding-top: 70px;">
+                <button class="start-now-btn" onclick="buySneakers();">Start Now</button>
+            </div>
+            
+
+
+            <div class="settings" style="text-align: center;">
+                <h2 class="settings-header">Settings</h2>
+
+                <div class="login-none" id="login-none">
+                    <h2>Login Details</h2>
+                    <input type="text" id="email" class ="email" placeholder="Email Address"></input>
+                    <input type="text" id="password" class ="password" placeholder="Password"></input>
+                    <button onclick="loginDetails()" class="login-details" id="login_details">Login</button>
+                </div>
+                <div class="login-save" id="login-save">
+                    <label style="font-weight: bold;">Email: </label>
+                    <label id="email-save"></label>
+                    <br>
+                    <button onclick="updateLoginInformation()">Update Login Information</button>
+                </div>
+
+                <br>
+
+                <div class="cvv-container">
+                    <b>Card CVV:</b> 
+                    <label id="cvvCode"></label>
+                    <input id="cvv"></input>
+                    <button style="max-width: fit-content; margin: auto;" id="cvvSave" onclick="cardCVVsave()">save</button>
+                    <button style="max-width: fit-content; margin: auto;" id="cvvReset" onclick="cardCVVreset()">Change CVV</button>
+                </div>
+                
+
+                <br>
+
+                <div id="proxy-stuff" class="proxy-stuff" style="text-align:center">
+                    <b>Proxy is currently: </b>
+                    <label id="proxy_active"></label>
+                    <br>
+                    <div id="proxy_address_stuff" class="proxy_address_stuff">
+                        <b style="font-weight: bold;">Proxy address is: </b>
+                        <label id="proxy_address_is"></label>
+                    </div>
+                    <input placeholder="Enter your proxy here" type="text" id="proxy-input" class="proxy-input" style="max-width: fit-content; margin: auto;"></input>
+                    <button style="max-width: fit-content; margin: auto;" onclick="resetProxy()" class="reset-proxy" id="reset_proxy">Reset Proxy Settings</button>
+                    <button style="max-width: fit-content; margin: auto;" onclick="saveProxy()" class="save-proxy" id="save_proxy">Save</button>
+                    <br>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="running-tasks" style="float:left; flex:1; width:400px; padding-left:20px; padding-right: 20px;">
+            <h2 class="running-tasks-header">Running Tasks</h2>
+            <button onclick="killAll()">Kill All</button>
+        </div>
+
+        <div class="extras" style="float:left; flex:1; width:350px; border-left:solid; height:650px">
+            <div style="text-align: center;">
+                <h2 style="text-align:center">Information</h2>
+                <label style="font-weight: bold;">Current Tasks: </label> <label id="running-tasks"></label>
+                <br>
+                <br>
+                <b>Successes: </b>
+            </div>
+            <br>
+            <div style="text-align: center;">
+                <h2 style="border-top:solid; padding-top: 20px">Help</h2>
+                <h4>If you need help operating Giga Nike Bot dont hesitate to contact us using the information below!</h4>
+                <label style="font-weight: bold;">Email: </label><label>info@giganikebot.com</label>
+            
+
+            </div>
+            
+        </div>
+
+        </div>
+
+        <script>
+            window.onload = task_page_load();
+        </script>
+    </body>
+</html>

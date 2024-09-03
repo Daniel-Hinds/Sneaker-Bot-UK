@@ -23,8 +23,6 @@ The licensing is done via Keygen(https://keygen.sh/). This allows you to create 
 
 Why is this bot open sourced whereas others are not?
 This bot is still in production and isn't as refined as the other bots yet, it still has a great success rate.
-Can Nike ban me for botting?
-Nike consider using bots to buy sneakers to be unfair, but so far nobody has been banned using this bot!
 
 # Credits 
 

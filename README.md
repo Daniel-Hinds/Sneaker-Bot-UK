@@ -1,4 +1,4 @@
-# Nike Giga Bot
+# Nike Bot
 Here is a bot to buy sneakers from the SNKRS website, it uses Node JS as a backend alongside selenium to do the auto-checkout!
 
 **Features**
